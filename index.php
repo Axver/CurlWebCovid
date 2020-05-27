@@ -21,7 +21,7 @@ function data($nama)
       $positif=explode('</div>',$positif[0]);
       $positif=explode(' ',$positif[0]);
       $array = array(
-        "kab" => "Bekasi",
+        "kab_kot" => "Bekasi",
         "positif" => $positif[48],
         "sembuh"=>'Kosong',
         "meninggal"=>'Kosong'
